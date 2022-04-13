@@ -2,3 +2,10 @@
     width: 150px;
     height: 54px;
 }
+
+@media screen and (max-width: 1024px) {
+    .nav__logo{
+        width: 95px;
+        height: 32px;
+    }
+  }

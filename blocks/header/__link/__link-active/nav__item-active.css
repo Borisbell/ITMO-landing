@@ -1,4 +1,10 @@
 .nav__link-active{
     font-weight: 400;
-    border-bottom: solid 2px #009FAC;
+    border-bottom: solid 2px var(--emerald);
 }
+
+@media screen and (max-width: 1024px) {
+    .nav__link-active{
+        border-bottom: none;
+    }
+  }

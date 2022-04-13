@@ -1,3 +1,12 @@
 header{
     background-color: #000D26;
 }
+
+@media screen and (max-width: 1024px) {
+    header{
+        display: flex;
+        padding: 16px 32px;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+  }

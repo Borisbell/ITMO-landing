@@ -1,8 +1,9 @@
 /* Global */
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
-/* 
+
 @import url(../styles/variables.css);
+/* 
 @import url(../blocks/page/page.css); */
 
 /* Header */
@@ -10,6 +11,9 @@
 @import url(../blocks/header/__logo/nav__logo.css);
 @import url(../blocks/header/__wrapper/nav__wrapper.css);
 @import url(../blocks/header/nav/nav.css);
+@import url(../blocks/header/nav/_visibility-on/nav_visibility-on.css);
 @import url(../blocks/header/__item/nav__item.css);
 @import url(../blocks/header/__link/nav__link.css);
 @import url(../blocks/header/__link/__link-active/nav__item-active.css);
+@import url(../blocks/header/__mobile-menu/nav__mobile-menu.css);
+@import url(../blocks/header/__mobile-menu/nav__mobile-menu-close.css);

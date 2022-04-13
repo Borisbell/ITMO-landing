@@ -1,0 +1,4 @@
+.nav__link-active{
+    font-weight: 400;
+    border-bottom: solid 2px #009FAC;
+}

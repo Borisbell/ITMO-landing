@@ -1,0 +1,14 @@
+.nav__link{
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.nav__link:hover{
+    color: #009FAC;
+}

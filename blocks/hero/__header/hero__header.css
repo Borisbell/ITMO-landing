@@ -1,0 +1,16 @@
+.hero__header{
+    margin: 0;
+    padding: 0;
+    color: var(--font-color);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 428px) {
+    .hero__header{
+        font-size: 32px;
+    }
+}

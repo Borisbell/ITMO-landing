@@ -1,0 +1,11 @@
+.hero__column{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+}
+
+@media screen and (max-width: 428px) {
+    .hero__column{
+        width: 100%;
+    }
+}

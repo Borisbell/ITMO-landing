@@ -1,4 +1,5 @@
 .nav{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -9,10 +10,17 @@
 @media screen and (max-width: 1024px) {
     .nav{
         display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding-left: 40px;
+        padding-top: 16px;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background-color: var(--dark-blue);
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 40px 0;
     }
 
     .nav[data-visible="true"] {

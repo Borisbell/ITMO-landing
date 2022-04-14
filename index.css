@@ -3,6 +3,7 @@
 @import url(../vendors/fonts.css);
 
 @import url(../styles/variables.css);
+@import url(./pages/page.css);
 /* 
 @import url(../blocks/page/page.css); */
 
@@ -17,3 +18,14 @@
 @import url(../blocks/header/__link/__link-active/nav__item-active.css);
 @import url(../blocks/header/__mobile-menu/nav__mobile-menu.css);
 @import url(../blocks/header/__mobile-menu/nav__mobile-menu-close.css);
+
+/* Button */
+@import url(../blocks/button/button.css);
+
+/* Hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__wrapper/hero__wrapper.css);
+@import url(../blocks/hero/__column.css/hero__column.css);
+@import url(../blocks/hero/__header/hero__header.css);
+@import url(../blocks/hero/__subheader/hero__subheader.css);
+@import url(../blocks/hero/__header/__header-thin/hero__header-thin.css);

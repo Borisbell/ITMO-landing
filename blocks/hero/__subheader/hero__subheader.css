@@ -1,0 +1,17 @@
+.hero__subheader{
+    margin: 0;
+    padding: 0;
+    color: var(--font-color);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 428px) {
+    .hero__subheader{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+}

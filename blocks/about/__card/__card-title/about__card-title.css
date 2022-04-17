@@ -1,0 +1,11 @@
+.about__card-title{
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    padding: 0 0 20px;
+    margin: 0;
+    border-bottom: 1px solid var(--emerald);
+}

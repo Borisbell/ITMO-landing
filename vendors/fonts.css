@@ -1,6 +1,13 @@
 @font-face {
 	font-family: 'Open Sans';
 	src:
+    url('../vendors/fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src:
     url('../vendors/fonts/OpenSans-Regular.ttf');
   font-weight: 400;
 }
@@ -18,4 +25,12 @@
 	src:
     url('../vendors/fonts/OpenSans-Bold.ttf');
 	font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+	src:
+    url('../vendors/fonts/OpenSans-LightItalic.ttf');
+	font-weight: 300;
+  font-style: italic;
 }

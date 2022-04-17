@@ -1,0 +1,11 @@
+.section__title{
+    font-family: var(--font-family);
+    font-size: 36px;
+    line-height: 1.9;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: var(--font-color);
+    padding: 0;
+    margin: 0 auto 30px;
+    text-align: center;
+}

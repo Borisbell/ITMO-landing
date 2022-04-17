@@ -1,0 +1,10 @@
+.section__text{
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    color: var(--font-color);
+    padding: 0;
+    margin: 0 auto 30px;
+    max-width: 910px;
+}

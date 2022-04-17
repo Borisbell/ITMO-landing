@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: var(--font-color);
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 54px;
     line-height: 1.2;

@@ -1,0 +1,9 @@
+.about__card-text{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: var(--dark-blue);
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+}

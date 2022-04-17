@@ -1,0 +1,9 @@
+.about__card-date{
+    font-family: var(--font-family);
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--emerald);
+    padding: 0;
+    margin: 0 0 8px;
+}

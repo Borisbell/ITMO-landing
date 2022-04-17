@@ -1,0 +1,7 @@
+.section__slider-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    column-gap: 28px;
+    padding-top: 12px;
+}

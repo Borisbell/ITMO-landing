@@ -1,0 +1,14 @@
+.lab__card-button {
+    border: 1px solid #001337;
+    background-color: transparent;
+    border-radius: 5px; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-family: var(--font-family);
+    color: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}

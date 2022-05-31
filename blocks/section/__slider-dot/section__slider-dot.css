@@ -1,0 +1,6 @@
+.section__slider-dot{
+    background-color: var(--font-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}

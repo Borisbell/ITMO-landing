@@ -1,3 +1,4 @@
+/* Mobile menu */
 const burgerButton = document.querySelector('.nav__mobile-menu');
 const navList = document.querySelector('.nav');
 
@@ -11,3 +12,11 @@ burgerButton.addEventListener('click', ()=>{
         burgerButton.classList.remove('nav__mobile-menu-close');
     }
 })
+
+/* Slider */
+new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    autoHeight: true,
+    arrows: true,
+  }  ).mount();

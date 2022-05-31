@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" type="image/png" href="">
+    <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <title>ITMO</title>
 </head>
 <body>
@@ -80,12 +82,90 @@
                         <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
                     </div>  
                 </div>
-                <div class="section__slider-dots">
-                    <div class="section__slider-dot"></div>
-                    <div class="section__slider-dot"></div>
-                    <div class="section__slider-dot"></div>
+                <div class="section__dots-wrapper">
+                    <div class="section__slider-dots">
+                        <div class="section__slider-dot"></div>
+                        <div class="section__slider-dot"></div>
+                        <div class="section__slider-dot"></div>
+                    </div>
                 </div>
-            </div>    
+            </div> 
+            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                <div style="position: relative">
+                    <div class="splide__arrows"></div>
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide"><div class="about__card">
+                            <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
+                            <p class="about__card-date">Понедельник, 5 июля 2021г</p>
+                            <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
+                            <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+                        </div></li>
+                          <li class="splide__slide"><div class="about__card">
+                            <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
+                            <p class="about__card-date">Понедельник, 5 июля 2021г</p>
+                            <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
+                            <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+                        </div></li>
+                          <li class="splide__slide"><div class="about__card">
+                            <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
+                            <p class="about__card-date">Понедельник, 5 июля 2021г</p>
+                            <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
+                            <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+                        </div></li>
+                      </ul>
+                </div>
+            </div>
+              </div>   
+        </div>
+    </section>
+    <section class="lab">
+        <div class="section__wrapper">
+            <h2 class="section__title section__text_color_dark">INDUSTRIAL AI RESEARCH LAB</h2>
+            <div class="lab__content">
+                <div class="lab__content_text">
+                    <p class="section__text section__text_color_dark">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку 
+                        по направлению «Технологии машинного обучения и когнитивные технологии». </p>   
+                        <p class="section__text section__text_type_thin section__text_color_dark">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом 
+                            и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.</p> 
+                </div>
+                <img src="images/image 35.png" alt="working man in front of the computer" class="lab__content_image">
+                <img src="images/image 38.png" alt="working man in front of the computer" class="lab__content_image">
+            </div>
+            <div class="lab__cards">
+                <div class="lab__card">
+                    <h3 class="lab__card-title">Анализ социальных данных</h3>
+                    <div class="card__icon-container">
+                        <img src="images/Card icon/tools.svg" alt="" class="lab__card-icon">
+                    </div>
+                    <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                    <button class="lab__card-button">Подробнее</button>
+                </div>
+                <div class="lab__card">
+                    <h3 class="lab__card-title">Инфраструктура больших данных</h3>
+                    <div class="card__icon-container">
+                        <img src="images/Card icon/brain.svg" alt="" class="lab__card-icon">
+                    </div>
+                    <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                    <button class="lab__card-button">Подробнее</button>
+                </div>
+                <div class="lab__card">
+                    <h3 class="lab__card-title">Облачные вычисления</h3>
+                    <div class="card__icon-container">
+                        <img src="images/Card icon/chip.svg" alt="" class="lab__card-icon">
+                    </div>
+                    <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                    <button class="lab__card-button">Подробнее</button>
+                </div>
+                <div class="lab__card">
+                    <h3 class="lab__card-title">QA системы</h3>
+                    <div class="card__icon-container">
+                        <img src="images/Card icon/bot.svg" alt="" class="lab__card-icon">
+                    </div>
+                    <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                    <button class="lab__card-button">Подробнее</button>
+                </div>
+            </div>
         </div>
     </section>
     <script src="/scripts/index.js"></script>

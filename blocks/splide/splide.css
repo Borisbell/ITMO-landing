@@ -1,0 +1,11 @@
+.splide__arrow--prev {
+    left: -3em
+}
+
+.splide__arrow--next {
+    right: -2em;
+}
+
+.splide__track {
+    padding-top: 15px;
+}

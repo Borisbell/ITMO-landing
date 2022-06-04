@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" type="image/png" href="">
     <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="./index.css">
     <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <title>ITMO</title>
 </head>
@@ -16,13 +16,13 @@
             <img src="./images/Logo__nav.png" alt="логотип ИТМО" class="nav__logo">
             <ul class="nav" data-visible="false">
                 <li class="nav__item">
-                    <a href="" class="nav__link nav__link-active">О нас</a>
+                    <a href="#about" class="nav__link nav__link-active">О нас</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">Лаборатория</a>
+                    <a href="#lab" class="nav__link">Лаборатория</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">Проекты</a>
+                    <a href="#projects" class="nav__link">Проекты</a>
                 </li>
                 <li class="nav__item">
                     <a href="" class="nav__link">Образование</a>
@@ -49,47 +49,10 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="section about section_bg_blue" id="about">
         <div class="section__wrapper">
             <h2 class="section__title">Несколько слов о нас</h2>
             <p class="section__text">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
-            <div class="section__slider">
-                <button class="section__arrow section__arrow-left"><img src="./images/arrow-left.svg" alt="кнопка со стрелкой влево"></button>
-                <button class="section__arrow section__arrow-right"><img src="./images/arrow-right.svg" alt="кнопка со стрелкой вправо"></button>
-                <div class="section__slider-cards">
-                    <div class="about__card">
-                        <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
-                        <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                        <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
-                        <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
-                    </div>  
-                    <div class="about__card">
-                        <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
-                        <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                        <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
-                        <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
-                    </div> 
-                    <div class="about__card">
-                        <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
-                        <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                        <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
-                        <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
-                    </div> 
-                    <div class="about__card">
-                        <img src="./images/Pin.svg" alt="иконка булавки" class="about__card-pin">
-                        <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                        <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
-                        <p class="about__card-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
-                    </div>  
-                </div>
-                <div class="section__dots-wrapper">
-                    <div class="section__slider-dots">
-                        <div class="section__slider-dot"></div>
-                        <div class="section__slider-dot"></div>
-                        <div class="section__slider-dot"></div>
-                    </div>
-                </div>
-            </div> 
             <div class="splide" role="group" aria-label="Splide Basic HTML Example">
                 <div style="position: relative">
                     <div class="splide__arrows"></div>
@@ -119,7 +82,7 @@
               </div>   
         </div>
     </section>
-    <section class="lab">
+    <section class="lab" id="lab">
         <div class="section__wrapper">
             <h2 class="section__title section__text_color_dark">INDUSTRIAL AI RESEARCH LAB</h2>
             <div class="lab__content">
@@ -133,7 +96,8 @@
                 <img src="images/image 38.png" alt="working man in front of the computer" class="lab__content_image">
             </div>
             <div class="lab__cards">
-                <div class="lab__card">
+                <div class="lab__card" style="
+                background-image: url('../../../images/cards-bgs/Data.png')">
                     <h3 class="lab__card-title">Анализ социальных данных</h3>
                     <div class="card__icon-container">
                         <img src="images/Card icon/tools.svg" alt="" class="lab__card-icon">
@@ -141,7 +105,8 @@
                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
                     <button class="lab__card-button">Подробнее</button>
                 </div>
-                <div class="lab__card">
+                <div class="lab__card" style="
+                background-image: url('../../../images/cards-bgs/ml.png')">
                     <h3 class="lab__card-title">Инфраструктура больших данных</h3>
                     <div class="card__icon-container">
                         <img src="images/Card icon/brain.svg" alt="" class="lab__card-icon">
@@ -149,7 +114,8 @@
                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
                     <button class="lab__card-button">Подробнее</button>
                 </div>
-                <div class="lab__card">
+                <div class="lab__card" style="
+                background-image: url('../../../images/cards-bgs/project.png')">
                     <h3 class="lab__card-title">Облачные вычисления</h3>
                     <div class="card__icon-container">
                         <img src="images/Card icon/chip.svg" alt="" class="lab__card-icon">
@@ -157,13 +123,281 @@
                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
                     <button class="lab__card-button">Подробнее</button>
                 </div>
-                <div class="lab__card">
+                <div class="lab__card" style="
+                background-image: url('../../../images/cards-bgs/robot.png')">
                     <h3 class="lab__card-title">QA системы</h3>
                     <div class="card__icon-container">
                         <img src="images/Card icon/bot.svg" alt="" class="lab__card-icon">
                     </div>
                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
                     <button class="lab__card-button">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects section section_bg_blue">
+        <div class="section__wrapper">
+            <h2 class="section__title">НАШИ ПРОЕКТЫ</h2>
+            <div class="project__cases">
+                <ul class="project__cases-tabs">
+                    <li class="project__cases-tab project__cases-tab_state_active"><a href="projects" class="project__cases-tab-link">ВСЕ ПРОЕКТЫ</a></li>
+                    <li class="project__cases-tab"><a href="gos-projects" class="project__cases-tab-link">ГОС. ПРОЕКТЫ</a></li>
+                    <li class="project__cases-tab"><a href="specials" class="project__cases-tab-link">СПЕЦПРОГРАММЫ</a></li>
+                    <li class="project__cases-tab"><a href="development" class="project__cases-tab-link">В РАЗРАБОТКЕ</a></li>
+                </ul>
+                <div class="project__cases-content project__cases-content_is_active" id="projects">
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item project__cases-item_width_double" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                </div>
+                <div class="project__cases-content" id="gos-projects">
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">В апреле командовать российской армией в битве за Донбасс назначили генерала Дворникова..</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">В апреле командовать российской армией в битве за Донбасс назначили генерала Дворникова.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item project__cases-item_width_double" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                </div>
+                <div class="project__cases-content" id="specials">
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Однако, как отмечают военные эксперты, опрошенные изданием, системные недостатки российской армии «глубоки и фундаментальны» и исправить их за несколько недель невозможно. </p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item project__cases-item_width_double" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                </div>
+                <div class="project__cases-content" id="development">
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item project__cases-item_width_double" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/officework.png')">
+                        <img src="./images/Sberbank.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
+                    <div class="project__cases-item" style="background-image: url('../../../images/Factory.png')">
+                        <img src="./images/Gazprom.svg" alt="Логотип компании" class="project__cases-item-logo">
+                        <p class="project__cases-item-text">Направление включает 
+                            в себя исследования 
+                            и разработки технологий МО и КТ.</p>
+                            <button class="project__cases-item-button">
+                                <img src="./images/arrow-card.svg" alt="стрелка справо" class="project__cases-item-button-icon">
+                            </button>
+                    </div>
                 </div>
             </div>
         </div>

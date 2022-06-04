@@ -1,0 +1,4 @@
+.project__cases-tabs {
+    display: flex;
+    justify-content: space-around;
+}

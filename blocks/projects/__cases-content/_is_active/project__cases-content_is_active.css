@@ -1,0 +1,5 @@
+.project__cases-content_is_active {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

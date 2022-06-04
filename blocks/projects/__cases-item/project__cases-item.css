@@ -1,0 +1,17 @@
+.project__cases-item {
+    background-color: var(--emerald);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--font-color);
+}

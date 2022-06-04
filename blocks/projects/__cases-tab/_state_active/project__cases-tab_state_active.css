@@ -1,0 +1,4 @@
+.project__cases-tab_state_active{
+    font-weight: 600;
+    border-bottom: solid 4px var(--emerald);
+}

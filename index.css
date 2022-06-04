@@ -6,50 +6,46 @@
 /* @import url(../blocks/page/page.css); */
 
 /* Header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/nav__logo.css);
-@import url(../blocks/header/__wrapper/nav__wrapper.css);
-@import url(../blocks/header/nav/nav.css);
-@import url(../blocks/header/nav/_visibility-on/nav_visibility-on.css);
-@import url(../blocks/header/__item/nav__item.css);
-@import url(../blocks/header/__link/nav__link.css);
-@import url(../blocks/header/__link/__link-active/nav__item-active.css);
-@import url(../blocks/header/__mobile-menu/nav__mobile-menu.css);
-@import url(../blocks/header/__mobile-menu/nav__mobile-menu-close.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/nav__logo.css);
+@import url(./blocks/header/__wrapper/nav__wrapper.css);
+@import url(./blocks/header/nav/nav.css);
+@import url(./blocks/header/__item/nav__item.css);
+@import url(./blocks/header/__link/nav__link.css);
+@import url(./blocks/header/__link/__link-active/nav__item-active.css);
+@import url(./blocks/header/__mobile-menu/nav__mobile-menu.css);
+@import url(./blocks/header/__mobile-menu/nav__mobile-menu-close.css);
 
 /* Button */
 @import url(../blocks/button/button.css);
 
 /* Hero */
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/__wrapper/hero__wrapper.css);
-@import url(../blocks/hero/__column.css/hero__column.css);
-@import url(../blocks/hero/__header/hero__header.css);
-@import url(../blocks/hero/__subheader/hero__subheader.css);
-@import url(../blocks/hero/__header/__header-thin/hero__header-thin.css);
+@import url(./blocks/hero/hero.css);
+@import url(./blocks/hero/__wrapper/hero__wrapper.css);
+@import url(./blocks/hero/__column.css/hero__column.css);
+@import url(./blocks/hero/__header/hero__header.css);
+@import url(./blocks/hero/__subheader/hero__subheader.css);
+@import url(./blocks/hero/__header/__header-thin/hero__header-thin.css);
 
 /* Section */
+@import url(./blocks/section/section.css);
+@import url(./blocks/section/__bg/section_bg_blue.css);
 @import url(./blocks/section/__wrapper/section__wrapper.css);
-@import url(./blocks/section/__slider/section__slider.css);
-@import url(./blocks/section/__arrow/section__arrow.css);
-@import url(./blocks/section/__arrow/section__arrow-left.css);
-@import url(./blocks/section/__arrow/section__arrow-right.css);
 @import url(./blocks/section/__title/section__title.css);
 @import url(./blocks/section/__text/section__text.css);
 @import url(./blocks/section/__text/_type_thin/section__text_type_thin.css);
 @import url(./blocks/section/__text/_color_dark/section__text_color_dark.css);
-@import url(./blocks/section/__dots-wrapper/section__dots-wrapper.css);
-@import url(./blocks/section/__slider-dots/section__slider-dots.css);
-@import url(./blocks/section/__slider-dot/section__slider-dot.css);
 
 /* About */
 @import url(./blocks/about/about.css);
-@import url(./blocks/section/__slider-cards/section__slider-cards.css);
 @import url(./blocks/about/__card/__card-pin/about__card-pin.css);
 @import url(./blocks/about/__card/about__card.css);
 @import url(./blocks/about/__card/__card-date/about__card-date.css);
 @import url(./blocks/about/__card/__card-title/about__card-title.css);
 @import url(./blocks/about/__card/__card-text/about__card-text.css);
+
+/* Splide */
+@import url(./blocks/splide/splide.css);
 
 /* Lab */
 @import url(./blocks/lab/lab.css);
@@ -64,3 +60,16 @@
 @import url(./blocks/lab/__card/__icon-container/card__icon-container.css);
 @import url(./blocks/lab/__card/__card-button/lab__card-button.css);
 @import url(./blocks/lab/__card/__card-icon/lab__card-icon.css);
+
+/* Projects */
+@import url(./blocks/projects/__cases-tabs/project__cases-tabs.css);
+@import url(./blocks/projects/__cases-tab/project__cases-tab.css);
+@import url(./blocks/projects/__cases-tab/_state_active/project__cases-tab_state_active.css);
+@import url(./blocks/projects/__cases-tab/__cases-tab-link/project__cases-tab-link.css);
+@import url(./blocks/projects/__cases-content/project__cases-content.css);
+@import url(./blocks/projects/__cases-content/_is_active/project__cases-content_is_active.css);
+@import url(./blocks/projects/__cases-item/project__cases-item.css);
+@import url(./blocks/projects/__cases-item/_width_double/project__cases-item_width_double.css);
+@import url(./blocks/projects/__cases-item-button/project__cases-item-button.css);
+@import url(./blocks/projects/__cases-item-logo/project__cases-item-logo.css);
+@import url(./blocks/projects/__cases-item-text/project__cases-item-text.css);

@@ -20,3 +20,31 @@ new Splide( '.splide', {
     autoHeight: true,
     arrows: true,
   }  ).mount();
+
+/* Tabs */
+const tabs = document.querySelectorAll(".project__cases-tab");
+const sections = document.querySelectorAll(".project__cases-content");
+
+tabs.forEach(tab => {
+  tab.addEventListener("click", e => {
+    e.preventDefault();
+    removeActiveTab();
+    addActiveTab(tab);
+  });
+})
+
+const removeActiveTab = () => {
+  tabs.forEach(tab => {
+    tab.classList.remove("project__cases-tab_state_active");
+  });
+  sections.forEach(section => {
+    section.classList.remove("project__cases-content_is_active");
+  });
+}
+
+const addActiveTab = tab => {
+  tab.classList.add("project__cases-tab_state_active");
+  const href = tab.querySelector("a").getAttribute("href");
+  const matchingSection = document.querySelector(`#${href}`);
+  matchingSection.classList.add("project__cases-content_is_active");
+}
